@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="responsive.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&family=Schibsted+Grotesk:ital,wght@0,400..900;1,400..900&display=swap" rel="stylesheet">
+    <title>Cronometro</title>
+    <script src="script.js"></script>
+</head>
+<body>
+    <div class="animation" id="animation"></div>
+    <div class="circulo">
+        <p id="temp"> 00:00:00</p>
+        
+            <div class="buttons">
+                <button class="i" onclick="startTime()">Iniciar</button>
+                <button class="p" onclick="PauseTime()">Pausar</button>
+                <button class="r" onclick="ResetTime()">Resetar</button>
+            </div>
+    </div>
+</body>
+</html>
